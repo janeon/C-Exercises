@@ -6,10 +6,9 @@
 //  Copyright © 2017 Jane Hsieh. All rights reserved.
 //  12/28 configuring Git source control
 
-#include <iostream>
-
+#include "Print3D.hpp"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n" << "What good fun!";
+    // Print3D a; a.foo();
     return 0;
 }
+

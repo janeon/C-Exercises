@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4EBDB7501FF4E40400FD854F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDB74F1FF4E40400FD854F /* main.cpp */; };
+		4EC159C72007A953007251AD /* Print3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC159C52007A953007251AD /* Print3D.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4EBDB74C1FF4E40400FD854F /* C++ Exercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Exercises"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBDB74F1FF4E40400FD854F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4EC159C52007A953007251AD /* Print3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print3D.cpp; sourceTree = "<group>"; };
+		4EC159C62007A953007251AD /* Print3D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print3D.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				4EBDB74F1FF4E40400FD854F /* main.cpp */,
+				4EC159C52007A953007251AD /* Print3D.cpp */,
+				4EC159C62007A953007251AD /* Print3D.hpp */,
 			);
 			path = "C++ Exercises";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC159C72007A953007251AD /* Print3D.cpp in Sources */,
 				4EBDB7501FF4E40400FD854F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
