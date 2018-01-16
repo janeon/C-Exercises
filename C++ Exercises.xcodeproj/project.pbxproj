@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E79BA32200E0C3D00C959A5 /* ACM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E79BA30200E0C3D00C959A5 /* ACM.cpp */; };
+		4E79BA35200E19A400C959A5 /* minions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E79BA33200E19A400C959A5 /* minions.cpp */; };
 		4EBDB7501FF4E40400FD854F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDB74F1FF4E40400FD854F /* main.cpp */; };
 		4EC159C72007A953007251AD /* Print3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EC159C52007A953007251AD /* Print3D.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E79BA30200E0C3D00C959A5 /* ACM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ACM.cpp; sourceTree = "<group>"; };
+		4E79BA31200E0C3D00C959A5 /* ACM.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ACM.hpp; sourceTree = "<group>"; };
+		4E79BA33200E19A400C959A5 /* minions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minions.cpp; sourceTree = "<group>"; };
+		4E79BA34200E19A400C959A5 /* minions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minions.hpp; sourceTree = "<group>"; };
 		4EBDB74C1FF4E40400FD854F /* C++ Exercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Exercises"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBDB74F1FF4E40400FD854F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4EC159C52007A953007251AD /* Print3D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print3D.cpp; sourceTree = "<group>"; };
@@ -60,7 +66,11 @@
 		4EBDB74E1FF4E40400FD854F /* C++ Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				4E79BA30200E0C3D00C959A5 /* ACM.cpp */,
+				4E79BA31200E0C3D00C959A5 /* ACM.hpp */,
 				4EBDB74F1FF4E40400FD854F /* main.cpp */,
+				4E79BA33200E19A400C959A5 /* minions.cpp */,
+				4E79BA34200E19A400C959A5 /* minions.hpp */,
 				4EC159C52007A953007251AD /* Print3D.cpp */,
 				4EC159C62007A953007251AD /* Print3D.hpp */,
 			);
@@ -124,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E79BA32200E0C3D00C959A5 /* ACM.cpp in Sources */,
+				4E79BA35200E19A400C959A5 /* minions.cpp in Sources */,
 				4EC159C72007A953007251AD /* Print3D.cpp in Sources */,
 				4EBDB7501FF4E40400FD854F /* main.cpp in Sources */,
 			);

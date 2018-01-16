@@ -11,7 +11,7 @@
 #include <math.h>
 #include <stdio.h>
 
-void Print3D::foo()
+void Print3D::count()
 {
     double arg, output;
     std::cin >> arg;

@@ -11,8 +11,7 @@
 
 class Print3D {
 public:
-    void foo();
-    int bar;
+    void count();
 };
 
 #endif /* Print3D_hpp */
