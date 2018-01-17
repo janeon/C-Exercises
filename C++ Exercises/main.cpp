@@ -19,6 +19,6 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // Print3D a; a.count();
     // ACM b; b.run();
-    minions c; c.run();
+    // minions c; c.run();
     return 0;
 }
