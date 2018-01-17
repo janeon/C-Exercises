@@ -56,7 +56,37 @@ void ACM::run() {
             //         min = *min_element(myvec.begin(), myvec.end());
             //        cout<<"Min value: "<<min<<endl;
         }
+
         cout << AC << " " << PT << endl;
     }
 }
+
+/*
+ while (MIN + CT <= 300) { // if the completing the next problem does not run overtime
+ if (first < 20) {  // if first problem has not already been completed
+ if (myvec.at(first) > 300) { // if this first problem exceeds 300 mins, it can't be done
+ cout << AC << endl << PT << endl; break;
+ }
+ else { // otherwise, do the problem and set it as done
+ AC = 1; first = 20;
+ PT = CT = myvec.at(first); myvec[first] = 1000;
+ }
+ }
+ // cout << CT << endl;
+ else { // if first problem is done
+ sort(myvec.begin(), myvec.end());
+ MIN = myvec.at(0); myvec[0] = 1000;
+ CT += MIN;
+ PT += CT;
+ AC++;
+ sort(myvec.begin(), myvec.end());
+ MIN = myvec.at(0); myvec[0] = 1000;
+ }
+ 
+ }
+ // cout << AC << endl << PT << endl;
+ // cout << MIN;
+ // for (vector<int>::iterator it = myvec.begin(); it != myvec.end(); it++) {cout << *it << endl;}
+ //double min = *min_element(myvec.begin(), myvec.end());
+ */
 

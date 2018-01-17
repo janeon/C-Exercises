@@ -10,9 +10,12 @@
 #define minions_hpp
 
 #include <stdio.h>
-
+#include <tuple>
+#include <vector>
+using namespace std;
 class minions {
 public:
+    vector<tuple<int,int>> bsort(vector<tuple<int,int>> a, int s);
     void run();
 };
 

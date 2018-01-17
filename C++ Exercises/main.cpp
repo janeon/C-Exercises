@@ -8,6 +8,7 @@
 
 #include "Print3D.hpp"
 #include "ACM.hpp"
+#include "minions.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
@@ -18,5 +19,6 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // Print3D a; a.count();
     // ACM b; b.run();
+    minions c; c.run();
     return 0;
 }
