@@ -9,6 +9,7 @@
 #include "Print3D.hpp"
 #include "ACM.hpp"
 #include "minions.hpp"
+#include "Multigram.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
@@ -20,5 +21,6 @@ int main(int argc, const char * argv[]) {
     // Print3D a; a.count();
     // ACM b; b.run();
     // minions c; c.run();
+    Multigram d; d.run();
     return 0;
 }
