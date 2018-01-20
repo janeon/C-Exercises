@@ -7,9 +7,12 @@
 //  12/28 configuring Git source control
 
 #include "Print3D.hpp"
+#include "Tarifa.hpp"
+#include "Set.hpp"
 #include "ACM.hpp"
 #include "minions.hpp"
 #include "Multigram.hpp"
+#include "Counting_Stars.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
@@ -21,6 +24,9 @@ int main(int argc, const char * argv[]) {
     // Print3D a; a.count();
     // ACM b; b.run();
     // minions c; c.run();
-    Multigram d; d.run();
+    // Multigram d; d.run();
+    // Counting_Stars e; e.test();
+    // Tarifa f; f.main();
+    Set g; g.main();
     return 0;
 }

@@ -38,7 +38,7 @@ vector<int> Multigram::primes(int n) {
 
 void Multigram::run(){
     string word; cin >> word;
-    string s(word); bool same;
+    string s(word); bool same = false;
     vector<char> v(s.begin(), s.end());
     // sort(v.begin(), v.end());
     // for (vector<char>::iterator it = v.begin(); it != v.end(); it++) { cout << *it; }

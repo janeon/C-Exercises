@@ -8,7 +8,6 @@
 
 #ifndef Multigram_hpp
 #define Multigram_hpp
-
 #include <stdio.h>
 #include <vector>
 using namespace std;

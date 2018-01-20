@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3964302010AB9E00FC6045 /* Counting_Stars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E39642E2010AB9E00FC6045 /* Counting_Stars.cpp */; };
+		4E42CFA32012FC4C0088B219 /* Tarifa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E42CFA12012FC4C0088B219 /* Tarifa.cpp */; };
+		4E42CFA6201301190088B219 /* Set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E42CFA4201301190088B219 /* Set.cpp */; };
 		4E79BA32200E0C3D00C959A5 /* ACM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E79BA30200E0C3D00C959A5 /* ACM.cpp */; };
 		4E79BA35200E19A400C959A5 /* minions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E79BA33200E19A400C959A5 /* minions.cpp */; };
 		4E79BA38200F435A00C959A5 /* Multigram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E79BA36200F435A00C959A5 /* Multigram.cpp */; };
@@ -27,6 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E39642E2010AB9E00FC6045 /* Counting_Stars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Counting_Stars.cpp; sourceTree = "<group>"; };
+		4E39642F2010AB9E00FC6045 /* Counting_Stars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Counting_Stars.hpp; sourceTree = "<group>"; };
+		4E42CFA12012FC4C0088B219 /* Tarifa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Tarifa.cpp; path = ../Tarifa.cpp; sourceTree = "<group>"; };
+		4E42CFA22012FC4C0088B219 /* Tarifa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tarifa.hpp; sourceTree = "<group>"; };
+		4E42CFA4201301190088B219 /* Set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Set.cpp; sourceTree = "<group>"; };
+		4E42CFA5201301190088B219 /* Set.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Set.hpp; sourceTree = "<group>"; };
 		4E79BA30200E0C3D00C959A5 /* ACM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ACM.cpp; sourceTree = "<group>"; };
 		4E79BA31200E0C3D00C959A5 /* ACM.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ACM.hpp; sourceTree = "<group>"; };
 		4E79BA33200E19A400C959A5 /* minions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minions.cpp; sourceTree = "<group>"; };
@@ -69,9 +78,15 @@
 		4EBDB74E1FF4E40400FD854F /* C++ Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				4E42CFA12012FC4C0088B219 /* Tarifa.cpp */,
+				4E42CFA22012FC4C0088B219 /* Tarifa.hpp */,
 				4E79BA30200E0C3D00C959A5 /* ACM.cpp */,
 				4E79BA31200E0C3D00C959A5 /* ACM.hpp */,
 				4EBDB74F1FF4E40400FD854F /* main.cpp */,
+				4E42CFA4201301190088B219 /* Set.cpp */,
+				4E42CFA5201301190088B219 /* Set.hpp */,
+				4E39642E2010AB9E00FC6045 /* Counting_Stars.cpp */,
+				4E39642F2010AB9E00FC6045 /* Counting_Stars.hpp */,
 				4E79BA36200F435A00C959A5 /* Multigram.cpp */,
 				4E79BA37200F435A00C959A5 /* Multigram.hpp */,
 				4E79BA33200E19A400C959A5 /* minions.cpp */,
@@ -139,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E42CFA32012FC4C0088B219 /* Tarifa.cpp in Sources */,
 				4E79BA32200E0C3D00C959A5 /* ACM.cpp in Sources */,
 				4E79BA35200E19A400C959A5 /* minions.cpp in Sources */,
+				4E3964302010AB9E00FC6045 /* Counting_Stars.cpp in Sources */,
+				4E42CFA6201301190088B219 /* Set.cpp in Sources */,
 				4E79BA38200F435A00C959A5 /* Multigram.cpp in Sources */,
 				4EC159C72007A953007251AD /* Print3D.cpp in Sources */,
 				4EBDB7501FF4E40400FD854F /* main.cpp in Sources */,
