@@ -3,6 +3,7 @@
 //  C++ Exercises
 //  PS: This solution did not pass all test cases
 //  PSS: CHOOSE PROBLEMS WITH MULTIPLE TEST CASES IN THE FUTURE
+//  https://open.kattis.com/problems/countingstars
 //  Created by Jane Hsieh on 1/18/18.
 //  Copyright © 2018 Jane Hsieh. All rights reserved.
 //

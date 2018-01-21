@@ -1,7 +1,7 @@
 //
 //  Set.cpp
 //  C++ Exercises
-//
+//  https://open.kattis.com/problems/set
 //  Created by Jane Hsieh on 1/20/18.
 //  Copyright © 2018 Jane Hsieh. All rights reserved.
 //

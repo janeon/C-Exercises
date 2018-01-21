@@ -11,13 +11,16 @@
 #include "Set.hpp"
 #include "ACM.hpp"
 #include "minions.hpp"
+#include "Frosh.hpp"
 #include "Multigram.hpp"
 #include "Counting_Stars.hpp"
+#include "extendedEuclidian.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <stdio.h>
 #include <vector>
 #include <sstream>
+#include <math.h>
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -27,6 +30,10 @@ int main(int argc, const char * argv[]) {
     // Multigram d; d.run();
     // Counting_Stars e; e.test();
     // Tarifa f; f.main();
-    Set g; g.main();
+    // Set g; g.main();
+    // Frosh h; h.main();
+    // cout << mod_div() << endl;
+    //cout<<inv(35,3);
+    // fmod(1 * (1/999.0), 1000)
     return 0;
 }

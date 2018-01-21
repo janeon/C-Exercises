@@ -1,7 +1,7 @@
 //
 //  Multigram.cpp
 //  C++ Exercises
-//
+//  https://open.kattis.com/problems/multigram
 //  Created by Jane Hsieh on 1/17/18.
 //  Copyright © 2018 Jane Hsieh. All rights reserved.
 

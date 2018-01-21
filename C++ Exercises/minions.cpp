@@ -1,7 +1,7 @@
 //
 //  minions.cpp
 //  C++ Exercises
-//
+//  https://open.kattis.com/problems/airconditioned
 //  Created by Jane Hsieh on 1/16/18.
 //  Copyright © 2018 Jane Hsieh. All rights reserved.
 //
