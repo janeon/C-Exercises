@@ -1,4 +1,4 @@
-//
+//  Finds the shortest root of a multigram, contains subroutines to find factors (both prime and nonprime)
 //  Multigram.cpp
 //  C++ Exercises
 //  https://open.kattis.com/problems/multigram
@@ -8,7 +8,6 @@
 #include "Multigram.hpp"
 #include <vector>
 #include <iostream>
-#include <tuple>
 
 using namespace std;
 

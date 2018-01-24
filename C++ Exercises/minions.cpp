@@ -1,4 +1,4 @@
-//
+//  Finds minimum number of rooms to satisfy all air-conditioning demands of minions
 //  minions.cpp
 //  C++ Exercises
 //  https://open.kattis.com/problems/airconditioned
@@ -18,7 +18,7 @@ vector <tuple<int,int>> minions::bsort(vector<tuple<int,int>> a, int s) {
         bool swapped = false;
         for (int j = 0; j < s - i; j++) {
             if (get<1>(a[j]) > get<1>(a[j+1])) {
-                std::swap(a[j], a[j + 1]);
+                swap(a[j], a[j + 1]);
                 swapped = true;
             }
         }

@@ -1,4 +1,4 @@
-//
+//  Computes possible ACM problems completed given time taken and penalty times
 //  ACM.cpp
 //  C++ Exercises
 //  https://open.kattis.com/problems/acm2

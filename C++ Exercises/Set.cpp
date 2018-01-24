@@ -1,6 +1,7 @@
 //
 //  Set.cpp
 //  C++ Exercises
+//  Finds all Sets in sorted order given 12 set cards
 //  https://open.kattis.com/problems/set
 //  Created by Jane Hsieh on 1/20/18.
 //  Copyright © 2018 Jane Hsieh. All rights reserved.
