@@ -13,17 +13,19 @@
 #include "minions.hpp"
 #include "Frosh.hpp"
 #include "Coloring.hpp"
+#include "Modulo.hpp"
 #include "Multigram.hpp"
 #include "Counting_Stars.hpp"
 #include "FWeek.hpp"
 #include "TriangleNumbers.hpp"
 #include "TPH.hpp"
+#include "Clock.hpp"
+#include "Patuljci.hpp"
+#include "Sieve.hpp"
+#include "Character_Dev.hpp"
+#include "Sundays.hpp"
 #include <iostream>
-#include <cstdlib>
 #include <stdio.h>
-#include <vector>
-#include <sstream>
-#include <math.h>
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -31,11 +33,15 @@ int main(int argc, const char * argv[]) {
     // ACM b; b.run();
     // minions c; c.run();
     // Multigram d; d.run();
-    // Counting_Stars e; e.test();
+    // Patuljci e; e.main();
     // Tarifa f; f.main();
     // Set g; g.main();
     // TriangleNumbers h; h.main();
-    TPH i; i.main();
+    // TPH i; i.main();
+    // Sundays j; j.main();
+    // Modulo k; k.main();
+    // Char l; l.main();
+    
     return 0;
 }
 

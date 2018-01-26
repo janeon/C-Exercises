@@ -8,7 +8,7 @@
 #include "Multigram.hpp"
 #include <vector>
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 vector<int> Multigram::primes(int n) {
@@ -66,14 +66,12 @@ void Multigram::run(){
         same = true;
         for (int k = 0; k < substrings.size(); k++) {
             // cout << substrings.at(k) <<endl;
-            if (substr != substrings.at(k)) {
+            if (substr != substrings.at(k)) same = false;
                 //cout << "Not true between " << substr << " and " << substrings.at(k) << endl;
-                same = false;
-            }
         }
-        if (same) {cout << substr0; break;}
+        if (same) cout << substr0; break;
     }
-    if (!same) {cout << -1;}
+    if (!same) cout << -1;
 }
 
 

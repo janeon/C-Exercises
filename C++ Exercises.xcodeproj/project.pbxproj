@@ -9,7 +9,13 @@
 /* Begin PBXBuildFile section */
 		4E358EAD2016E25200290B4A /* TriangleNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EAB2016E25200290B4A /* TriangleNumbers.cpp */; };
 		4E358EB120171A5200290B4A /* TPH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EAF20171A5200290B4A /* TPH.cpp */; };
-		4E358EB42018222800290B4A /* Clock Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EB22018222800290B4A /* Clock Sequence.cpp */; };
+		4E358EB7201829D500290B4A /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EB5201829D500290B4A /* Clock.cpp */; };
+		4E358EBA2018790B00290B4A /* Sieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EB82018790A00290B4A /* Sieve.cpp */; };
+		4E358EBD2018901500290B4A /* Sundays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EBB2018901500290B4A /* Sundays.cpp */; };
+		4E358EC0201ABCCF00290B4A /* Modulo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EBE201ABCCF00290B4A /* Modulo.cpp */; };
+		4E358EC3201AC3A900290B4A /* Character_Dev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EC1201AC3A900290B4A /* Character_Dev.cpp */; };
+		4E358EC6201AE42200290B4A /* Patuljci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EC4201AE42200290B4A /* Patuljci.cpp */; };
+		4E358EC9201AF60500290B4A /* 2048.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E358EC7201AF60500290B4A /* 2048.cpp */; };
 		4E3964302010AB9E00FC6045 /* Counting_Stars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E39642E2010AB9E00FC6045 /* Counting_Stars.cpp */; };
 		4E42CFA32012FC4C0088B219 /* Tarifa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E42CFA12012FC4C0088B219 /* Tarifa.cpp */; };
 		4E42CFA6201301190088B219 /* Set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E42CFA4201301190088B219 /* Set.cpp */; };
@@ -41,8 +47,20 @@
 		4E358EAE2016E85500290B4A /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 		4E358EAF20171A5200290B4A /* TPH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TPH.cpp; sourceTree = "<group>"; };
 		4E358EB020171A5200290B4A /* TPH.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TPH.hpp; sourceTree = "<group>"; };
-		4E358EB22018222800290B4A /* Clock Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Clock Sequence.cpp"; sourceTree = "<group>"; };
-		4E358EB32018222800290B4A /* Clock Sequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Clock Sequence.hpp"; sourceTree = "<group>"; };
+		4E358EB5201829D500290B4A /* Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clock.cpp; sourceTree = "<group>"; };
+		4E358EB6201829D500290B4A /* Clock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clock.hpp; sourceTree = "<group>"; };
+		4E358EB82018790A00290B4A /* Sieve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sieve.cpp; sourceTree = "<group>"; };
+		4E358EB92018790B00290B4A /* Sieve.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sieve.hpp; sourceTree = "<group>"; };
+		4E358EBB2018901500290B4A /* Sundays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sundays.cpp; sourceTree = "<group>"; };
+		4E358EBC2018901500290B4A /* Sundays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sundays.hpp; sourceTree = "<group>"; };
+		4E358EBE201ABCCF00290B4A /* Modulo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Modulo.cpp; sourceTree = "<group>"; };
+		4E358EBF201ABCCF00290B4A /* Modulo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Modulo.hpp; sourceTree = "<group>"; };
+		4E358EC1201AC3A900290B4A /* Character_Dev.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Character_Dev.cpp; sourceTree = "<group>"; };
+		4E358EC2201AC3A900290B4A /* Character_Dev.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Character_Dev.hpp; sourceTree = "<group>"; };
+		4E358EC4201AE42200290B4A /* Patuljci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Patuljci.cpp; sourceTree = "<group>"; };
+		4E358EC5201AE42200290B4A /* Patuljci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Patuljci.hpp; sourceTree = "<group>"; };
+		4E358EC7201AF60500290B4A /* 2048.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2048.cpp; sourceTree = "<group>"; };
+		4E358EC8201AF60500290B4A /* 2048.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 2048.hpp; sourceTree = "<group>"; };
 		4E39642E2010AB9E00FC6045 /* Counting_Stars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Counting_Stars.cpp; sourceTree = "<group>"; };
 		4E39642F2010AB9E00FC6045 /* Counting_Stars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Counting_Stars.hpp; sourceTree = "<group>"; };
 		4E42CFA12012FC4C0088B219 /* Tarifa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Tarifa.cpp; path = ../Tarifa.cpp; sourceTree = "<group>"; };
@@ -97,11 +115,25 @@
 		4EBDB74E1FF4E40400FD854F /* C++ Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				4EBDB74F1FF4E40400FD854F /* main.cpp */,
+				4E358EC4201AE42200290B4A /* Patuljci.cpp */,
+				4E358EC7201AF60500290B4A /* 2048.cpp */,
+				4E358EC8201AF60500290B4A /* 2048.hpp */,
+				4E358EC5201AE42200290B4A /* Patuljci.hpp */,
+				4E358EC1201AC3A900290B4A /* Character_Dev.cpp */,
+				4E358EC2201AC3A900290B4A /* Character_Dev.hpp */,
+				4E358EB82018790A00290B4A /* Sieve.cpp */,
+				4E358EBB2018901500290B4A /* Sundays.cpp */,
+				4E358EBC2018901500290B4A /* Sundays.hpp */,
+				4E358EB92018790B00290B4A /* Sieve.hpp */,
+				4E358EB5201829D500290B4A /* Clock.cpp */,
+				4E358EBE201ABCCF00290B4A /* Modulo.cpp */,
+				4E358EBF201ABCCF00290B4A /* Modulo.hpp */,
+				4E358EB6201829D500290B4A /* Clock.hpp */,
 				4E42CFA12012FC4C0088B219 /* Tarifa.cpp */,
 				4E42CFA22012FC4C0088B219 /* Tarifa.hpp */,
 				4E79BA30200E0C3D00C959A5 /* ACM.cpp */,
 				4E79BA31200E0C3D00C959A5 /* ACM.hpp */,
-				4EBDB74F1FF4E40400FD854F /* main.cpp */,
 				4E358EAC2016E25200290B4A /* TriangleNumbers.hpp */,
 				4E42CFA4201301190088B219 /* Set.cpp */,
 				4E42CFA5201301190088B219 /* Set.hpp */,
@@ -122,8 +154,6 @@
 				4E358EAB2016E25200290B4A /* TriangleNumbers.cpp */,
 				4E358EAE2016E85500290B4A /* words.txt */,
 				4E358EAF20171A5200290B4A /* TPH.cpp */,
-				4E358EB22018222800290B4A /* Clock Sequence.cpp */,
-				4E358EB32018222800290B4A /* Clock Sequence.hpp */,
 				4E358EB020171A5200290B4A /* TPH.hpp */,
 			);
 			path = "C++ Exercises";
@@ -188,18 +218,24 @@
 			files = (
 				4E42CFA32012FC4C0088B219 /* Tarifa.cpp in Sources */,
 				4E79BA32200E0C3D00C959A5 /* ACM.cpp in Sources */,
+				4E358EBA2018790B00290B4A /* Sieve.cpp in Sources */,
+				4E358EC3201AC3A900290B4A /* Character_Dev.cpp in Sources */,
+				4E358EBD2018901500290B4A /* Sundays.cpp in Sources */,
 				4E358EAD2016E25200290B4A /* TriangleNumbers.cpp in Sources */,
 				4E42CFAF201431E00088B219 /* Coloring.cpp in Sources */,
+				4E358EC6201AE42200290B4A /* Patuljci.cpp in Sources */,
 				4E358EB120171A5200290B4A /* TPH.cpp in Sources */,
 				4E79BA35200E19A400C959A5 /* minions.cpp in Sources */,
-				4E358EB42018222800290B4A /* Clock Sequence.cpp in Sources */,
 				4E42CFA920132B470088B219 /* Frosh.cpp in Sources */,
 				4E3964302010AB9E00FC6045 /* Counting_Stars.cpp in Sources */,
 				4E42CFA6201301190088B219 /* Set.cpp in Sources */,
 				4E42CFB220143FA60088B219 /* FWeek.cpp in Sources */,
+				4E358EC0201ABCCF00290B4A /* Modulo.cpp in Sources */,
 				4E79BA38200F435A00C959A5 /* Multigram.cpp in Sources */,
 				4EC159C72007A953007251AD /* Print3D.cpp in Sources */,
+				4E358EB7201829D500290B4A /* Clock.cpp in Sources */,
 				4EBDB7501FF4E40400FD854F /* main.cpp in Sources */,
+				4E358EC9201AF60500290B4A /* 2048.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +350,14 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZ2WXDWAHL;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/include/,
+					/opt/local/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -323,6 +367,14 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZ2WXDWAHL;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/opt/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/include/,
+					/opt/local/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
