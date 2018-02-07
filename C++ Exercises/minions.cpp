@@ -37,7 +37,7 @@ void minions::run() {
         tmp = make_tuple(first,second);
         myvec.push_back(tmp);
     }
-    myvec = bsort(myvec,myvec.size());
+//    myvec = bsort(myvec,myvec.size());
     //for (vector<tuple<int,int>>::iterator it = myvec.begin(); it != myvec.end(); it++) { tuple<int,int> temp =  *it; cout << get<0>(temp) << " " << get<1>(temp) << endl; }
     
     vector<int> rooms;

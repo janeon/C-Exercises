@@ -10,5 +10,18 @@
 #define _048_hpp
 
 #include <stdio.h>
-
+class game2048 {
+public:
+    int inBoard[4][4];
+    void print();
+    void flushleft();
+    void left();
+    void flushup();
+    void up();
+    void flushright();
+    void right();
+    void flushdown();
+    void down();
+    int main();
+};
 #endif /* _048_hpp */

@@ -15,8 +15,7 @@ vector<int> Multigram::primes(int n) {
     vector<int> factors;
     for(int i = 1; i < n; ++i)
     {
-        if(n % i == 0)
-            factors.push_back(i);
+        if (n % i == 0) factors.push_back(i);
     } return factors;
     /* finds prime factors
      while (f*f < n) {
