@@ -33,17 +33,17 @@ vector<int> TPH::hexagonal(int n, int m) {
 }
 
 int TPH::main() {
-    int n = 100000;
+    int n = 100;
     vector<int> tri = triangular(285, n);
     vector<int> pent = pentagonal(165, n);
     vector<int> hex = hexagonal(143, n);
-    // for (int num : tri) cout << num << endl;
+    for (int num : tri) cout << num << endl;
     // cout << "End of triangulars \n";
     // for (int num : pent) cout << num << endl;
     // cout << "End of pentagonals \n";
-    for (int num : hex) { // check containment of element in tri and pent
+    /*for (int num : hex) { // check containment of element in tri and pent
         if (find(tri.begin(), tri.end(), num) != tri.end() && find(pent.begin(), pent.end(), num) != pent.end()) cout << num << endl;
-    }
+    }*/
     // cout << "End of hexagonals \n";
     
     return 0;

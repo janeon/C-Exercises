@@ -47,7 +47,7 @@ int main(int argc, const char * argv[]) {
     // Tarifa f; f.main();
     // Set g; g.main();
     // TriangleNumbers h; h.main();
-    // TPH i; i.main();
+    TPH i; i.main();
     // Sundays j; j.main();
     // Modulo k; k.main();
     // Char l; l.main();
@@ -59,7 +59,7 @@ int main(int argc, const char * argv[]) {
     // Backspace r; r.main();
     // DataStructure s; s.main(); // need to test with samples
     // GuessNum t; cout << t.main();
-    Internet u; u.main();
+    // Internet u; u.main();
     return 0;
 }
 
